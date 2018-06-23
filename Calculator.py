@@ -258,7 +258,7 @@ exponent = Button(calc, height=2, width=4, padx=10, pady=10, text='e^x', bg="#98
 exponent["command"]=lambda: sum1.operation("exp")
 exponent.grid(row=5,column=3,padx=1,pady=1)
 
-inv = Button(calc, height=2, width=4, padx=10, pady=10, text="1/x", bg="#98FB98 PaleGreen")
+inv = Button(calc, height=2, width=4, padx=10, pady=10, text="1/x", bg="Green")
 inv["command"] = lambda: sum1.operation("inv")
 inv.grid(row=5,column=4,padx=1,pady=1)
 
