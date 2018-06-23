@@ -256,7 +256,7 @@ tangent = Button(calc, height=2,width=4, padx=10,pady=10, text = "tan" , bg= "#9
 tangent["command"]=lambda: sum1.operation("tangent")
 tangent.grid(row=5,column=2,padx=1,pady=1)
 
-exponent = Button(calc, height=2, width=4, padx=10, pady=10, text='e^x', bg="#98FB98 PaleGreen")
+exponent = Button(calc, height=2, width=4, padx=10, pady=10, text='e^x', bg="Green")
 exponent["command"]=lambda: sum1.operation("exp")
 exponent.grid(row=5,column=3,padx=1,pady=1)
 
