@@ -14,9 +14,11 @@ class Calc():
         self.total = 0
         self.current = ""
         self.new_num = True
-        self.op_pending = False  # 运算符号
+        self.op_pending = False  
         self.op = ""
-        self.eq = False   # 方程式
+        self.eq = False  
+
+    
 
     def num_press(self, num):
         self.eq = False
@@ -226,7 +228,7 @@ power = Button(calc, height=2,width=4,padx=10,pady=10,text="x^y",bg="#98FB98 Pal
 power["command"] = lambda: sum1.operation("raise")
 power.grid(row=2,column = 4,padx=1,pady=1)
 
-rootof = Button(calc, height=2, width=4, padx=10, pady=10, text="y-\/x", bg = "#98FB98 PaleGreen")
+rootof = Button(calc, height=2, width=4, padx=10, pady=10, text="y-\/x", bg = "Green")
 rootof["command"] = lambda: sum1.operation("rootof")
 rootof.grid(row=2, column=5, padx=1, pady=1)
 
