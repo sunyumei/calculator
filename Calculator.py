@@ -208,23 +208,23 @@ bttn_0 = Button(calc,height =2,width=4,padx=10, pady = 10, text = "0",bg="orange
 bttn_0["command"] = lambda: sum1.num_press(0)
 bttn_0.grid(row = 4, column = 0,  padx=1, pady = 1)
 
-div = Button(calc,height =2,width=4,padx=10, pady = 10, text = "/",bg="steel blue")
+div = Button(calc,height =2,width=4,padx=10, pady = 10, text = "/",bg="#7B68EE 	MediumSlateBlue")
 div["command"] = lambda: sum1.operation("divide")
 div.grid(row = 1, column = 3, padx=1, pady = 1)
 
-mult = Button(calc,height =2,width=4,padx=10, pady = 10, text = "*",bg="steel blue")
+mult = Button(calc,height =2,width=4,padx=10, pady = 10, text = "*",bg="#7B68EE 	MediumSlateBlue")
 mult["command"] = lambda: sum1.operation("times")
 mult.grid(row = 2, column = 3,  padx=1, pady = 1)
 
-minus = Button(calc,height =2,width=4,padx=10, pady = 10, text = "-",bg="steel blue")
+minus = Button(calc,height =2,width=4,padx=10, pady = 10, text = "-",bg="#7B68EE 	MediumSlateBlue")
 minus["command"] = lambda: sum1.operation("minus")
 minus.grid(row = 3, column = 3, padx=1, pady = 1)
 
-add = Button(calc,height =2,width=4,padx=10, pady = 10, text = "+",bg="steel blue")
+add = Button(calc,height =2,width=4,padx=10, pady = 10, text = "+",bg="#7B68EE 	MediumSlateBlue")
 add["command"] = lambda: sum1.operation("add")
 add.grid(row = 4, column = 3,  padx=1, pady = 1)
 
-power = Button(calc, height=2,width=4,padx=10,pady=10,text="x^y",bg="#98FB98 PaleGreen")
+power = Button(calc, height=2,width=4,padx=10,pady=10,text="x^y",bg="#7B68EE 	MediumSlateBlue")
 power["command"] = lambda: sum1.operation("raise")
 power.grid(row=2,column = 4,padx=1,pady=1)
 
@@ -264,28 +264,28 @@ inv = Button(calc, height=2, width=4, padx=10, pady=10, text="1/x", bg="Green")
 inv["command"] = lambda: sum1.operation("inv")
 inv.grid(row=5,column=4,padx=1,pady=1)
 
-point = Button(calc,height =2,width=4,padx=10, pady = 10, text = ".",bg="white")
+point = Button(calc,height =2,width=4,padx=10, pady = 10, text = ".",bg="#708090 	SlateGray")
 point["command"] = lambda: sum1.num_press(".")
 point.grid(row = 4, column = 1, padx=1, pady = 1)
 
-inp= Button(calc,height =2,width=4,padx=10, pady = 10, text = "inp",bg="white")
+inp= Button(calc,height =2,width=4,padx=10, pady = 10, text = "inp",bg="#708090 	SlateGray")
 inp["command"] = sum1.inp
 inp.grid(row = 4, column = 2,  padx=1, pady = 1)
 
 
-clear = Button(calc,height =2,width=4,padx=10, pady = 10, text = "C",bg="white")
+clear = Button(calc,height =2,width=4,padx=10, pady = 10, text = "C",bg="#708090 	SlateGray")
 clear["command"] = sum1.clear
 clear.grid(row = 1, column = 4,  padx=1, pady = 1)
 
-all_clear = Button(calc,height =2,width=4,padx=10, pady = 10, text = "AC",bg="white")
+all_clear = Button(calc,height =2,width=4,padx=10, pady = 10, text = "AC",bg="#708090 	SlateGray")
 all_clear["command"] = sum1.all_clear
 all_clear.grid(row = 1, column = 5, padx=1, pady = 1)
 
-equals = Button(calc,height =2,width=4,padx=10, pady = 10, text = "=",bg="#98FB98 PaleGreen")
+equals = Button(calc,height =2,width=4,padx=10, pady = 10, text = "=",bg="#7B68EE 	MediumSlateBlue")
 equals["command"] = sum1.calc_total
 equals.grid(row = 4, column = 5,padx=1, pady = 1)
 
-abse = Button(calc,height =2,width=4,padx=10, pady = 10, text = "abs",bg="#98FB98 PaleGreen")
+abse = Button(calc,height =2,width=4,padx=10, pady = 10, text = "abs",bg="#7B68EE 	MediumSlateBlue")
 abse["command"] = lambda: sum1.operation("abse")
 abse.grid(row = 5, column = 5,padx=1, pady = 1)
 
