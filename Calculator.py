@@ -228,15 +228,15 @@ power = Button(calc, height=2,width=4,padx=10,pady=10,text="x^y",bg="#7B68EE 	Me
 power["command"] = lambda: sum1.operation("raise")
 power.grid(row=2,column = 4,padx=1,pady=1)
 
-rootof = Button(calc, height=2, width=4, padx=10, pady=10, text="y-\/x", bg = "Green")
+rootof = Button(calc, height=2, width=4, padx=10, pady=10, text="y-\/x", bg = "Yellow")
 rootof["command"] = lambda: sum1.operation("rootof")
 rootof.grid(row=2, column=5, padx=1, pady=1)
 
-fact = Button(calc, height=2, width=4, padx=10, pady=10, text="!",bg="Green")
+fact = Button(calc, height=2, width=4, padx=10, pady=10, text="!",bg="Yellow")
 fact["command"] = lambda: sum1.operation("fact")
 fact.grid(row=3,column=4, padx=1, pady=1)
 
-loge = Button(calc, height=2, width=4, padx=10, pady=10, text="ln",bg="Green")
+loge = Button(calc, height=2, width=4, padx=10, pady=10, text="ln",bg="Yellow")
 loge["command"] = lambda: sum1.operation("ln")
 loge.grid(row=3, column=5, padx=1, pady=1)
 
@@ -244,15 +244,15 @@ log10 = Button(calc, height=2, width=4, padx=10, pady=10, text="log",bg="Green")
 log10["command"]= lambda: sum1.operation("log")
 log10.grid(row=4, column=4, padx=1 , pady=1)
 
-sine = Button(calc, height=2,width=4, padx=10,pady=10, text = "sin" , bg= "Green")
+sine = Button(calc, height=2,width=4, padx=10,pady=10, text = "sin" , bg= "pink")
 sine["command"]=lambda: sum1.operation("sine")
 sine.grid(row=5,column=0,padx=1,pady=1)
 
-cosine = Button(calc, height=2,width=4, padx=10,pady=10, text = "cos" , bg= "Green")
+cosine = Button(calc, height=2,width=4, padx=10,pady=10, text = "cos" , bg= "pink")
 cosine["command"]=lambda: sum1.operation("cosine")
 cosine.grid(row=5,column=1,padx=1,pady=1)
 
-tangent = Button(calc, height=2,width=4, padx=10,pady=10, text = "tan" , bg= "Green")
+tangent = Button(calc, height=2,width=4, padx=10,pady=10, text = "tan" , bg= "pink")
 tangent["command"]=lambda: sum1.operation("tangent")
 tangent.grid(row=5,column=2,padx=1,pady=1)
 
@@ -260,7 +260,7 @@ exponent = Button(calc, height=2, width=4, padx=10, pady=10, text='e^x', bg="Gre
 exponent["command"]=lambda: sum1.operation("exp")
 exponent.grid(row=5,column=3,padx=1,pady=1)
 
-inv = Button(calc, height=2, width=4, padx=10, pady=10, text="1/x", bg="Green")
+inv = Button(calc, height=2, width=4, padx=10, pady=10, text="1/x", bg="Blue")
 inv["command"] = lambda: sum1.operation("inv")
 inv.grid(row=5,column=4,padx=1,pady=1)
 
